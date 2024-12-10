@@ -1,4 +1,5 @@
 import pymysql
+
 def create_passive_skill_description_table(host, user, password, database):
     # 创建数据库连接
     connection = pymysql.connect(host=host,
@@ -32,4 +33,4 @@ def create_passive_skill_description_table(host, user, password, database):
         connection.close()
 
 # 调用函数创建被动技能表
-#create_passive_skill_table(host='localhost', user='root', password='your_password', database='damage_calculation')
+create_passive_skill_description_table(host='localhost', user='root', password='password', database='damage_calculation')
