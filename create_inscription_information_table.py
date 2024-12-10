@@ -14,7 +14,7 @@ def create_inscription_information_table(host, user, password, database):
             create_table_sql = """
             CREATE TABLE IF NOT EXISTS inscription_information (
                 inscription_name VARCHAR(30) NOT NULL,
-                inscription_type ENUM('红', '绿', '蓝') NOT NULL,
+                inscription_type ENUM('red', 'green', 'blue') NOT NULL,
                 physical_attack FLOAT NOT NULL DEFAULT 0,
                 physical_penetration FLOAT NOT NULL DEFAULT 0,
                 physical_lifesteal FLOAT NOT NULL DEFAULT 0,
@@ -43,4 +43,4 @@ def create_inscription_information_table(host, user, password, database):
         connection.close()
 
 # 调用函数创建铭文信息表
-#create_inscription_information_table(host='localhost', user='root', password='password', database='damage_calculation')
+create_inscription_information_table(host='localhost', user='root', password='jichenyu666.', database='damage_calculation')
