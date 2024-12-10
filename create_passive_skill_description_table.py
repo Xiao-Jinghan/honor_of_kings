@@ -17,7 +17,7 @@ def create_passive_skill_description_table(host, user, password, database):
                 passive_skill_name VARCHAR(255) NOT NULL,
                 passive_skill_description VARCHAR(255) NOT NULL,
                 passive_skill_cd FLOAT NOT NULL DEFAULT 0,
-                PRIMARY KEY (name),
+                PRIMARY KEY (name, passive_skill_name),
                 FOREIGN KEY (name) REFERENCES equipment_information(name)
                     ON DELETE CASCADE
                     ON UPDATE CASCADE
@@ -33,4 +33,4 @@ def create_passive_skill_description_table(host, user, password, database):
         connection.close()
 
 # 调用函数创建被动技能表
-create_passive_skill_description_table(host='localhost', user='root', password='password', database='damage_calculation')
+#create_passive_skill_description_table(host='localhost', user='root', password='password', database='damage_calculation')
