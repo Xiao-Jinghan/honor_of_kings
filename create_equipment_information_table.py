@@ -40,4 +40,5 @@ def create_equipment_information_table(host, user, password, database):
 
     finally:
         connection.close()
-#create_equipment_information_table(host='localhost', user='root', password='your_password', database='damage_calculation')
+
+#create_equipment_information_table(host='localhost', user='root', password='password', database='damage_calculation')
