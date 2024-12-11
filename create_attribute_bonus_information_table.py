@@ -1,6 +1,6 @@
 import pymysql
 
-def create_attribute_bonus_table(host, user, password, database):
+def create_attribute_bonus_information_table(host, user, password, database):
     # 创建数据库连接
     connection = pymysql.connect(host=host,
                                    user=user,
@@ -44,4 +44,4 @@ def create_attribute_bonus_table(host, user, password, database):
         connection.close()
 
 # 调用函数创建增加属性信息表
-#create_attribute_bonus_table(host='localhost', user='root', password='password', database='damage_calculation')
+#create_attribute_bonus_information_table(host='localhost', user='root', password='password', database='damage_calculation')
