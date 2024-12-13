@@ -9,6 +9,7 @@ from create_attack_information_table import create_attack_information_table
 from create_ability_information_table import create_ability_information_table
 from create_overlay_information_table import create_overlay_information_table
 from create_ability_attack_informaition_table import create_ability_attack_informaition_table
+from create_hurt_information_table import create_hurt_information_table
 
 create_equipment_information_table(host='localhost', user='root', password='jichenyu666.', database='damage_calculation')
 create_passive_skill_description_table(host='localhost', user='root', password='jichenyu666.', database='damage_calculation')
@@ -21,3 +22,4 @@ create_attack_information_table(host='localhost', user='root', password='jicheny
 create_ability_information_table(host='localhost', user='root', password='jichenyu666.', database='damage_calculation')
 create_overlay_information_table(host='localhost', user='root', password='jichenyu666.', database='damage_calculation')
 create_ability_attack_informaition_table(host='localhost', user='root', password='jichenyu666.', database='damage_calculation')
+create_hurt_information_table(host='localhost', user='root', password='jichenyu666.', database='damage_calculation')
