@@ -24,7 +24,7 @@ def create_hurt_information_table(host, user, password, database):
                     DEFAULT NULL,
                 condition_type ENUM('lower','higher') DEFAULT NULL,
                 condition_value FLOAT DEFAULT 0,               
-                bonus_attribute ENUM('max_health','physical_hurt_value') DEFAULT 0,
+                bonus_attribute ENUM('max_health','physical_hurt_value') DEFAULT NUll,
                 base_bonus_value FLOAT DEFAULT 0,
                 bonus_percent_value FLOAT DEFAULT 0,
                 bonus_value_or_lower_bound FLOAT DEFAULT 0,
