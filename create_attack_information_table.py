@@ -1,6 +1,6 @@
 import pymysql
 
-def create_attack_passive_information_table(host, user, password, database):
+def create_attack_information_table(host, user, password, database):
     # 连接到数据库
     connection = pymysql.connect(
         host=host,
@@ -45,4 +45,4 @@ def create_attack_passive_information_table(host, user, password, database):
         connection.close()
 
 # 示例：调用函数创建表，传入相应数据库参数
-# create_attack_passive_information_table('localhost', 'your_username', 'your_password', 'your_database')
+# create_attack_information_table('localhost', 'your_username', 'your_password', 'your_database')
