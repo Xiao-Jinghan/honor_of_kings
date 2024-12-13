@@ -5,7 +5,7 @@ from create_inscription_information_table import create_inscription_information_
 from create_passive_skill_description_table import create_passive_skill_description_table
 from create_direct_damage_information_table import create_direct_damage_information_table
 #from create_harmless_passive_information_table import create_harmless_passive_information_table
-from create_attack_passive_information_table import create_attack_passive_information_table
+from create_attack_information_table import create_attack_information_table
 from create_ability_information_table import create_ability_information_table
 from create_overlay_information_table import create_overlay_information_table
 from create_ability_attack_informaition_table import create_ability_attack_informaition_table
@@ -17,7 +17,7 @@ create_inscription_information_table(host='localhost', user='root', password='ji
 create_attribute_bonus_information_table(host='localhost', user='root', password='jichenyu666.', database='damage_calculation')
 create_direct_damage_information_table(host='localhost', user='root', password='jichenyu666.', database='damage_calculation')
 #create_harmless_passive_information_table(host='localhost', user='root', password='jichenyu666.', database='damage_calculation')
-create_attack_passive_information_table(host='localhost', user='root', password='jichenyu666.', database='damage_calculation')
+create_attack_information_table(host='localhost', user='root', password='jichenyu666.', database='damage_calculation')
 create_ability_information_table(host='localhost', user='root', password='jichenyu666.', database='damage_calculation')
 create_overlay_information_table(host='localhost', user='root', password='jichenyu666.', database='damage_calculation')
 create_ability_attack_informaition_table(host='localhost', user='root', password='jichenyu666.', database='damage_calculation')
