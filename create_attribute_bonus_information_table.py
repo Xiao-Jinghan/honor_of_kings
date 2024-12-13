@@ -17,7 +17,7 @@ def create_attribute_bonus_information_table(host, user, password, database):
                 name VARCHAR(255) NOT NULL,
                 passive_skill_name VARCHAR(255) NOT NULL,
                 bonus_attribute ENUM('physical_attack', 'magic_attack', 'attack_speed', 'critical_strike', 'physical_lifesteal', 'cooldown_reduction', 
-                                     'max_mana', 'mana_per_5_seconds', ' health_per_5_seconds', 'max_health', 'physical_defense', 'magic_defense', 'movement_speed', 
+                                     'max_mana', 'mana_per_5_seconds', 'health_per_5_seconds', 'max_health', 'physical_defense', 'magic_defense', 'movement_speed', 
                                      'extra_ealth', 'extra_physical_attack', 'extra_magic_attack') DEFAULT NULL,
                 base_bonus_value FLOAT DEFAULT 0,
                 bonus_percent_value FLOAT DEFAULT 0,
