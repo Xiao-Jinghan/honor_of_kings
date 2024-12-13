@@ -53,4 +53,4 @@ def create_hurt_information_table(host, user, password, database):
         connection.close()
 
 # 示例：调用函数创建表，传入相应数据库参数
-# create_overlay_information_table('localhost', 'your_username', 'your_password', 'your_database')
+# create_hurt_information_table('localhost', 'your_username', 'your_password', 'your_database')
