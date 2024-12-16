@@ -13,7 +13,7 @@ def create_ability_information_table(host, user, password, database):
         with connection.cursor() as cursor:
             # 创建表的SQL语句
             create_table_query = """
-            CREATE TABLE IF NOT EXISTS ability_information_table (
+            CREATE TABLE IF NOT EXISTS ability_information (
                 passive_id INT AUTO_INCREMENT NOT NULL,
                 name VARCHAR(255) NOT NULL,
                 passive_skill_name VARCHAR(255) NOT NULL,
