@@ -1,0 +1,20 @@
+﻿装备名称,被动技能名称,触发条件,加成属性,加成属性基础值,加成属性百分值,被加成属性,被加成值/被加成下限,被加成上限,持续时间,被动技能cd,英雄类型,id
+影刃,暴风,critical_strike,,,,attack_speed,0.20 ,,3.00 ,0.00 ,,1
+影刃,暴风,critical_strike,,,,movement_speed,0.05 ,,3.00 ,0.00 ,,2
+破军,破军,lower_50_percent_health_enemy,,,,bonus_damage,0.30 ,,,0.00 ,,3
+制裁之刃,重伤,hit,,,,reduce_enemy_regeneration_effect,0.35 ,,2.50 ,0.00 ,,4
+梦魇之牙,重伤,hit,,,,reduce_enemy_regeneration_effect,0.35 ,,2.50 ,0.00 ,,5
+游击弯刀,狩猎,hit,magic_attack,28.00 ,0.10 ,cause_magic_damage,,,,0.00 ,melee,6
+巡守利斧,狩猎,hit,extra_health,24.00 ,0.02 ,cause_real_damage,,,,0.00 ,melee,7
+游击弯刀,狩猎,hit,magic_attack,14.00 ,0.05 ,cause_magic_damage,,,,0.00 ,ranged,8
+巡守利斧,狩猎,hit,extra_health,12.00 ,0.01 ,cause_real_damage,,,,0.00 ,ranged,9
+追击刀锋,狩猎,hit,extra_physical_attack,28.00 ,0.16 ,cause_physical_damage,,,,0.00 ,melee,10
+追击刀锋,狩猎,hit,extra_physical_attack,14.00 ,0.08 ,cause_physical_damage,,,,0.00 ,ranged,11
+符文大剑,狩猎,hit,magic_attack,72.00 ,0.24 ,cause_magic_damage,,,,0.00 ,melee,12
+巡守利斧,狩猎,hit,extra_health,60.00 ,0.04 ,cause_real_damage,,,,0.00 ,melee,13
+符文大剑,狩猎,hit,magic_attack,36.00 ,0.12 ,cause_magic_damage,,,,0.00 ,ranged,14
+巡守利斧,狩猎,hit,extra_health,30.00 ,0.02 ,cause_real_damage,,,,0.00 ,ranged,15
+追击刀锋,狩猎,hit,extra_physical_attack,72.00 ,0.48 ,cause_physical_damage,,,,0.00 ,melee,16
+追击刀锋,狩猎,hit,extra_physical_attack,36.00 ,0.24 ,cause_physical_damage,,,,0.00 ,ranged,17
+铸梦·破空,碎甲,hit,,,,reduce_enemy_physical_defense,0.10 ,,2.00 ,0.00 ,,18
+,,,,,,,,,,,,
