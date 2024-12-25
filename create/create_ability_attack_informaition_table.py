@@ -20,7 +20,7 @@ def create_ability_attack_informaition_table(host, user, password, database):
                     DEFAULT NULL,
                 bonus_attribute ENUM('physical_attack', 'magic_attack', 'attack_speed', 'critical_strike', 'physical_lifesteal', 'cooldown_reduction', 
                                      'max_mana', 'mana_per_5_seconds', 'health_per_5_seconds', 'max_health', 'physical_defense', 'magic_defense', 'movement_speed', 
-                                     'extra_ealth', 'extra_physical_attack', 'extra_magic_attack') DEFAULT NULL,
+                                     'extra_health', 'extra_physical_attack', 'extra_magic_attack') DEFAULT NULL,
                 base_bonus_value FLOAT DEFAULT 0,
                 bonus_percent_value FLOAT DEFAULT 0,
                 bonus_value_or_lower_bound FLOAT DEFAULT 0,
