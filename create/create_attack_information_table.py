@@ -23,7 +23,7 @@ def create_attack_information_table(host, user, password, database):
                 bonus_value_or_lower_bound FLOAT DEFAULT 0,
                 bonus_upper_bound FLOAT DEFAULT 0,
                 bonus_target_attribute ENUM('attack_damage', 'cause_magic_damage', 'physical_attack_damage',
-                                            'cause_physical_damage', 'physical_magic_damage', 'restore_health') DEFAULT NULL,
+                                            'cause_physical_damage', 'restore_health') DEFAULT NULL,
                 passive_skill_cd FLOAT DEFAULT 0,
                 hero_type ENUM('melee', 'ranged', 'all') DEFAULT 'all',
                 PRIMARY KEY (passive_id),
