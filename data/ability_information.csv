@@ -1,0 +1,22 @@
+﻿装备名称,被动技能名称,命中条件,命中后效果,加成属性,加成属性基础值,加成属性百分值,被加成属性,被加成值/被加成下限,被加成上限,持续时间,时间限制,次数限制,被动技能cd,id
+日冕,残废,hit_hero,enemy_hero,,,,slow,0.10 ,,3.00 ,,,8.00 ,1
+纯净苍穹,残废,hit_hero,enemy_hero,,,,slow,0.30 ,,3.00 ,,,8.00 ,2
+纯净苍穹,残废,hit_hero,enemy_hero,,,,reduce_self_damage,0.20 ,,3.00 ,,,8.00 ,3
+暗影战斧,残废,hit_hero,enemy_hero,,,,slow,0.10 ,,3.00 ,,,8.00 ,4
+天穹,残废,hit_hero,enemy_hero,,,,slow,0.30 ,,3.00 ,,,8.00 ,5
+天穹,残废,hit_hero,enemy_hero,,,,reduce_self_damage,0.20 ,,3.00 ,,,8.00 ,6
+凝冰之息,冻伤,hit_movement_lower_hero,enemy_hero,,,,bonus_magic_damage,120.00 ,400.00 ,,,,5.00 ,7
+魔道之石,法力波,hit,enemy,,,,bonus_magic_damage,200.00 ,,,,,5.00 ,8
+回响之杖,回响,hit,aoe,magic_attack,,0.40 ,bonus_magic_damage,120.00 ,,,,,5.00 ,9
+凝冰之息,凝冰,hit,enemy,,,,slow,0.20 ,,2.00 ,,,0.00 ,10
+宗师之力,强击,use,self,,,,movement_speed,0.12 ,,2.00 ,,,3.00 ,11
+宗师之力,强击,use,self,physical_attack,,0.85 ,next_basic_attack_bonus_physical_damage,,,,5.00 ,,3.00 ,12
+光辉之剑,强击,use,self,physical_attack,,0.50 ,next_basic_attack_bonus_magic_damage,,,,5.00 ,,3.00 ,13
+光辉之剑,强击,use,self,magic_attack,,0.30 ,next_basic_attack_bonus_magic_damage,,,,5.00 ,,3.00 ,14
+巫术法杖,强击,use,self,physical_attack,,0.30 ,next_basic_attack_bonus_magic_damage,,,,5.00 ,,3.00 ,15
+巫术法杖,强击,use,self,magic_attack,,0.70 ,next_basic_attack_bonus_magic_damage,,,,5.00 ,,3.00 ,16
+冰痕之握,强击,use,enemy_hero,,,,next_basic_attack_bonus_physical_damage,140.00 ,420.00 ,,5.00 ,,1.20 ,17
+冰痕之握,强击,use,enemy_melee_hero,,,,next_basic_attack_slow,0.30 ,,0.50 ,5.00 ,,1.20 ,18
+冰痕之握,强击,use,enemy_ranged_hero,,,,next_basic_attack_slow,0.20 ,,0.50 ,5.00 ,,1.20 ,19
+铸梦·逐风,逐风,use,self,,,,attack_speed_for_next_3_basic_attacks,0.35 ,,,,,3.00 ,20
+痛苦面具,折磨,hit,enemy,target_max_health,,0.03 ,cause_magic_damage,,,3.00 ,,4.00 ,3.00 ,21
