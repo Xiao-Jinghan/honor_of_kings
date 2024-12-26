@@ -1,0 +1,3 @@
+﻿装备名称,被动技能名称,加成属性,加成基础值,加成属性百分值,被加成属性,被动技能cd,英雄类型,被动id
+熔炼之心,业炎,max_health,,0.01 ,cause_magic_damage,1,,1
+红莲斗篷,业炎,max_health,,0.015 ,cause_magic_damage,1,,2
