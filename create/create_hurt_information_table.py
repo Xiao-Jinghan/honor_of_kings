@@ -30,7 +30,7 @@ def create_hurt_information_table(host, user, password, database):
                 bonus_value_or_lower_bound FLOAT DEFAULT 0,
                 bonus_upper_bound FLOAT DEFAULT 0,
                 bonus_target_attribute ENUM('cause_magic_damage','cause_physical_damage','aoe_slow','aoe_reduce_attack_speed',
-                                            'reduce_attacker_attack_speed','health_every_second','increase_damage') 
+                                            'reduce_attacker_attack_speed','reduce_attacker_movement','health_every_second','increase_damage') 
                                              DEFAULT NULL,
                 duration FLOAT DEFAULT 0,
                 passive_skill_cd FLOAT DEFAULT 0,

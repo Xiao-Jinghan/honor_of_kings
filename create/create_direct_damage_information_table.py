@@ -17,7 +17,7 @@ def create_direct_damage_information_table(host, user, password, database):
             create_table_query = """
             CREATE TABLE IF NOT EXISTS direct_damage_information (
                 passive_id INT PRIMARY KEY AUTO_INCREMENT,  -- 被动技能 ID，主键
-                equipment_name VARCHAR(255) NOT NULL,  -- 装备名称
+                name VARCHAR(255) NOT NULL,  -- 装备名称
                 passive_skill_name VARCHAR(255) NOT NULL,  -- 被动技能名称
                 bonus_attribute ENUM('physical_attack', 'magic_attack', 'attack_speed', 'critical_strike', 
                                      'physical_lifesteal', 'cooldown_reduction', 'max_mana', 'mana_per_5_seconds', 
