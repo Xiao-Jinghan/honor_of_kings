@@ -1,0 +1,20 @@
+﻿装备名称,被动技能名称,叠层条件,每多少触发,叠层结果,最高层数,叠满效果,叠满加成属性,叠满加成基础值,叠满加成百分值,被加成值/被加成下限,被加成上限,持续时间,被动技能cd,id
+闪电匕首,电弧,attack,3.00 ,cause_magic_damage,,,,,,140.00 ,420.00 ,,0.00 ,1
+寒霜侵袭,寒霜,attack,1.00 ,slow,5.00 ,attack_bonus_damage,,,0.30 ,0.03 ,,2.00 ,0.00 ,2
+游击弯刀,奖赏,kill_wild,1.00 ,magic_attack,15.00 ,,,,,6.00 ,,,0.00 ,3
+巡守利斧,奖赏,kill_wild,1.00 ,max_health,15.00 ,,,,,30.00 ,,,0.00 ,4
+追击刀锋,奖赏,kill_wild,1.00 ,physical_attack,15.00 ,,,,,3.00 ,,,0.00 ,5
+符文大剑,奖赏,kill_wild,1.00 ,magic_attack,25.00 ,,,,,6.00 ,,,0.00 ,6
+巨人之握,奖赏,kill_wild,1.00 ,max_health,25.00 ,,,,,30.00 ,,,0.00 ,7
+贪婪之噬,奖赏,kill_wild,1.00 ,physical_attack,25.00 ,,,,,3.00 ,,,0.00 ,8
+符文大剑,奖赏,kill_wild,1.00 ,cooldown_reduction,25.00 ,,,,,0.00 ,,,0.00 ,9
+巨人之握,奖赏,kill_wild,1.00 ,cooldown_reduction,25.00 ,,,,,0.00 ,,,0.00 ,10
+贪婪之噬,奖赏,kill_wild,1.00 ,cooldown_reduction,25.00 ,,,,,0.00 ,,,0.00 ,11
+日暮之流,净魔,damage_hero,1.00 ,magic_penetration,10.00 ,,,,,16.00 ,30.00 ,4.00 ,0.00 ,12
+贤者之书,刻印,magic_attack,100.00 ,damage_increase_ratio,15.00 ,,,,,0.01 ,,,0.00 ,13
+铸梦·逐风,切割,attack,1.00 ,physical_penetration,2.00 ,,,,,45.00 ,90.00 ,3.00 ,0.00 ,14
+金色圣剑,圣剑,attack,1.00 ,attack_speed,2.00 ,attack_bonus_magic_damage,magic_attack,,0.30 ,0.10 ,,5.00 ,0.20 ,15
+无尽战刃,无尽,critical_strike,0.02 ,critical_strike_effect,25.00 ,,,,,0.01 ,,,0.00 ,16
+暴烈之甲,无畏,injured,1.00 ,increase_damage,5.00 ,,,,,0.02 ,,,0.00 ,17
+暴烈之甲,无畏,injured,1.00 ,movement_speed,5.00 ,,,,,0.01 ,,,0.00 ,18
+不死鸟之眼,血统,lose_health,0.10 ,health_regeneration_effect,,,,,,0.06 ,,,0.00 ,19
