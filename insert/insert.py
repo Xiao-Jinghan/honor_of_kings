@@ -7,6 +7,8 @@ from insert_ability_information import insert_ability_information
 from insert_attack_information import insert_attack_information
 from insert_direct_damage_information import insert_direct_damage_information
 from insert_hurt_information import insert_hurt_information
+from insert_inscription_information import insert_inscription_information
+from insert_overlay_information import insert_overlay_information
 
 insert_equipment_information(host='localhost', user='root', password='jichenyu666.', database='damage_calculation')
 insert_passive_description(host='localhost', user='root', password='jichenyu666.', database='damage_calculation')
@@ -17,3 +19,5 @@ insert_ability_information(host='localhost', user='root', password='jichenyu666.
 insert_attack_information(host='localhost', user='root', password='jichenyu666.', database='damage_calculation')
 insert_direct_damage_information(host='localhost', user='root', password='jichenyu666.', database='damage_calculation')
 insert_hurt_information(host='localhost', user='root', password='jichenyu666.', database='damage_calculation')
+insert_inscription_information(host='localhost', user='root', password='jichenyu666.', database='damage_calculation')
+insert_overlay_information(host='localhost', user='root', password='jichenyu666.', database='damage_calculation')
